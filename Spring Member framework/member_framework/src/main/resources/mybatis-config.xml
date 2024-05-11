@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias type="com.member.dto.MemberDTO" alias="member"></typeAlias>
+<!--        원래경로를 다 적어줘야 하지만 이렇게 줄일 수 있다.-->
+    </typeAliases>
+</configuration>
